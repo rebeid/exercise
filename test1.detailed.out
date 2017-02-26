@@ -1,0 +1,25 @@
+Initial Inventory:
+A x 2
+B x 3
+C x 1
+D x 0
+E x 0
+
+Input:
+{"Header": "0001", "Lines": [{"Product": "F", "Quantity": 1}]}
+{"Header": "0002", "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "C", "Quantity": 1}]}
+{"Header": "0003", "Lines": [{"Product": "E", "Quantity": 5}]}
+{"Header": "0004", "Lines": [{"Product": "C", "Quantity": 6}]}
+{"Header": "0005", "Lines": [{"Product": "B", "Quantity": 0}, {"Product": "D", "Quantity": 4}, {"Product": "F", "Quantity": 2}]}
+{"Header": "0006", "Lines": [{"Product": "E", "Quantity": 0}]}
+{"Header": "0007", "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "B", "Quantity": 6}, {"Product": "C", "Quantity": 1}]}
+{"Header": "0008", "Lines": [{"Product": "A", "Quantity": 6}, {"Product": "B", "Quantity": 3}]}
+{"Header": "0009", "Lines": [{"Product": "D", "Quantity": 4}]}
+{"Header": "0010", "Lines": [{"Product": "C", "Quantity": 0}]}
+
+Output:
+0002: 1,0,1,0,0::1,0,1,0,0::0,0,0,0,0
+0003: 0,0,0,0,5::0,0,0,0,0::0,0,0,0,5
+0005: 0,0,0,4,0::0,0,0,0,0::0,0,0,4,0
+0007: 1,0,1,0,0::1,0,0,0,0::0,0,1,0,0
+0008: 0,3,0,0,0::0,3,0,0,0::0,0,0,0,0
