@@ -1,0 +1,270 @@
+Initial Inventory:
+A x 150
+B x 150
+C x 100
+D x 100
+E x 200
+
+Input:
+{"Header": 1, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "C", "Quantity": 4}]}
+{"Header": 2, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 1}]}
+{"Header": 3, "Lines": [{"Product": "C", "Quantity": 4}]}
+{"Header": 4, "Lines": [{"Product": "B", "Quantity": 3}, {"Product": "E", "Quantity": 1}]}
+{"Header": 5, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 3}]}
+{"Header": 6, "Lines": [{"Product": "C", "Quantity": 3}]}
+{"Header": 7, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 4}]}
+{"Header": 8, "Lines": [{"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 2}]}
+{"Header": 9, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 4}, {"Product": "E", "Quantity": 3}]}
+{"Header": 10, "Lines": [{"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 3}, {"Product": "E", "Quantity": 3}]}
+{"Header": 11, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 5}, {"Product": "E", "Quantity": 3}]}
+{"Header": 12, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 5}]}
+{"Header": 13, "Lines": [{"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 2}]}
+{"Header": 14, "Lines": [{"Product": "A", "Quantity": 1}]}
+{"Header": 15, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 5}]}
+{"Header": 16, "Lines": [{"Product": "B", "Quantity": 5}]}
+{"Header": 17, "Lines": [{"Product": "D", "Quantity": 3}]}
+{"Header": 18, "Lines": [{"Product": "B", "Quantity": 5}, {"Product": "D", "Quantity": 2}]}
+{"Header": 19, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 1}]}
+{"Header": 20, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 2}]}
+{"Header": 21, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 4}]}
+{"Header": 22, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 5}]}
+{"Header": 23, "Lines": [{"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 1}, {"Product": "E", "Quantity": 4}]}
+{"Header": 24, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 2}]}
+{"Header": 25, "Lines": [{"Product": "E", "Quantity": 5}]}
+{"Header": 26, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "C", "Quantity": 4}]}
+{"Header": 27, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 4}, {"Product": "E", "Quantity": 2}]}
+{"Header": 28, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 4}]}
+{"Header": 29, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 4}, {"Product": "D", "Quantity": 2}]}
+{"Header": 30, "Lines": [{"Product": "A", "Quantity": 4}]}
+{"Header": 31, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "B", "Quantity": 3}, {"Product": "D", "Quantity": 5}]}
+{"Header": 32, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 1}]}
+{"Header": 33, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 5}]}
+{"Header": 34, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 2}]}
+{"Header": 35, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 4}, {"Product": "E", "Quantity": 4}]}
+{"Header": 36, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 3}, {"Product": "E", "Quantity": 3}]}
+{"Header": 37, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 3}, {"Product": "E", "Quantity": 3}]}
+{"Header": 38, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 4}, {"Product": "E", "Quantity": 1}]}
+{"Header": 39, "Lines": [{"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 4}, {"Product": "E", "Quantity": 2}]}
+{"Header": 40, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "E", "Quantity": 2}]}
+{"Header": 41, "Lines": [{"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 2}]}
+{"Header": 42, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "C", "Quantity": 1}]}
+{"Header": 43, "Lines": [{"Product": "B", "Quantity": 5}, {"Product": "D", "Quantity": 5}]}
+{"Header": 44, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 2}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 1}]}
+{"Header": 45, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "C", "Quantity": 5}, {"Product": "E", "Quantity": 2}]}
+{"Header": 46, "Lines": [{"Product": "B", "Quantity": 4}]}
+{"Header": 47, "Lines": [{"Product": "B", "Quantity": 1}, {"Product": "E", "Quantity": 1}]}
+{"Header": 48, "Lines": [{"Product": "B", "Quantity": 5}]}
+{"Header": 49, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 5}, {"Product": "E", "Quantity": 3}]}
+{"Header": 50, "Lines": [{"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 2}]}
+{"Header": 51, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 5}]}
+{"Header": 52, "Lines": [{"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 5}]}
+{"Header": 53, "Lines": [{"Product": "E", "Quantity": 2}]}
+{"Header": 54, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 4}]}
+{"Header": 55, "Lines": [{"Product": "B", "Quantity": 5}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 5}]}
+{"Header": 56, "Lines": [{"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 2}]}
+{"Header": 57, "Lines": [{"Product": "A", "Quantity": 2}]}
+{"Header": 58, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 1}]}
+{"Header": 59, "Lines": [{"Product": "B", "Quantity": 3}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 1}]}
+{"Header": 60, "Lines": [{"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 4}]}
+{"Header": 61, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 5}]}
+{"Header": 62, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 3}]}
+{"Header": 63, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 3}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 4}]}
+{"Header": 64, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 3}]}
+{"Header": 65, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 1}]}
+{"Header": 66, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 4}]}
+{"Header": 67, "Lines": [{"Product": "B", "Quantity": 3}]}
+{"Header": 68, "Lines": [{"Product": "B", "Quantity": 2}, {"Product": "D", "Quantity": 3}]}
+{"Header": 69, "Lines": [{"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 4}]}
+{"Header": 70, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 5}]}
+{"Header": 71, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 5}, {"Product": "D", "Quantity": 4}, {"Product": "E", "Quantity": 3}]}
+{"Header": 72, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 4}]}
+{"Header": 73, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 4}, {"Product": "E", "Quantity": 4}]}
+{"Header": 74, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 5}]}
+{"Header": 75, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 4}]}
+{"Header": 76, "Lines": [{"Product": "D", "Quantity": 5}]}
+{"Header": 77, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 3}]}
+{"Header": 78, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 5}]}
+{"Header": 79, "Lines": [{"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 1}]}
+{"Header": 80, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 3}]}
+{"Header": 81, "Lines": [{"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 2}]}
+{"Header": 82, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 4}, {"Product": "E", "Quantity": 5}]}
+{"Header": 83, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "C", "Quantity": 2}, {"Product": "E", "Quantity": 5}]}
+{"Header": 84, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 5}, {"Product": "E", "Quantity": 3}]}
+{"Header": 85, "Lines": [{"Product": "C", "Quantity": 3}]}
+{"Header": 86, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "C", "Quantity": 4}, {"Product": "E", "Quantity": 3}]}
+{"Header": 87, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 3}]}
+{"Header": 88, "Lines": [{"Product": "D", "Quantity": 4}]}
+{"Header": 89, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "D", "Quantity": 5}]}
+{"Header": 90, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 4}]}
+{"Header": 91, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "E", "Quantity": 2}]}
+{"Header": 92, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 5}]}
+{"Header": 93, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 3}]}
+{"Header": 94, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 3}]}
+{"Header": 95, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 3}]}
+{"Header": 96, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 5}, {"Product": "E", "Quantity": 4}]}
+{"Header": 97, "Lines": [{"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 5}]}
+{"Header": 98, "Lines": [{"Product": "A", "Quantity": 1}]}
+{"Header": 99, "Lines": [{"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 1}, {"Product": "E", "Quantity": 1}]}
+{"Header": 100, "Lines": [{"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 5}, {"Product": "E", "Quantity": 1}]}
+{"Header": 101, "Lines": [{"Product": "C", "Quantity": 1}, {"Product": "E", "Quantity": 5}]}
+{"Header": 102, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 5}]}
+{"Header": 103, "Lines": [{"Product": "B", "Quantity": 4}]}
+{"Header": 104, "Lines": [{"Product": "B", "Quantity": 1}, {"Product": "E", "Quantity": 2}]}
+{"Header": 105, "Lines": [{"Product": "B", "Quantity": 3}, {"Product": "D", "Quantity": 4}]}
+{"Header": 106, "Lines": [{"Product": "A", "Quantity": 5}]}
+{"Header": 107, "Lines": [{"Product": "E", "Quantity": 3}]}
+{"Header": 108, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "C", "Quantity": 1}]}
+{"Header": 109, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 1}]}
+{"Header": 110, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 5}, {"Product": "E", "Quantity": 2}]}
+{"Header": 111, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 2}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 2}]}
+{"Header": 112, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 5}]}
+{"Header": 113, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 4}]}
+{"Header": 114, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 2}]}
+{"Header": 115, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "C", "Quantity": 4}, {"Product": "E", "Quantity": 5}]}
+{"Header": 116, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 1}]}
+{"Header": 117, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 2}, {"Product": "E", "Quantity": 3}]}
+{"Header": 118, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "D", "Quantity": 1}]}
+{"Header": 119, "Lines": [{"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 1}]}
+{"Header": 120, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "B", "Quantity": 4}]}
+{"Header": 121, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "E", "Quantity": 2}]}
+{"Header": 122, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "E", "Quantity": 3}]}
+{"Header": 123, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "B", "Quantity": 5}, {"Product": "E", "Quantity": 3}]}
+{"Header": 124, "Lines": [{"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 5}, {"Product": "E", "Quantity": 3}]}
+{"Header": 125, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 3}]}
+{"Header": 126, "Lines": [{"Product": "C", "Quantity": 5}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 1}]}
+{"Header": 127, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 1}]}
+{"Header": 128, "Lines": [{"Product": "A", "Quantity": 1}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 4}, {"Product": "E", "Quantity": 1}]}
+{"Header": 129, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 3}]}
+{"Header": 130, "Lines": [{"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 4}]}
+{"Header": 131, "Lines": [{"Product": "B", "Quantity": 2}, {"Product": "D", "Quantity": 2}]}
+{"Header": 132, "Lines": [{"Product": "B", "Quantity": 5}, {"Product": "E", "Quantity": 5}]}
+{"Header": 133, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 4}, {"Product": "E", "Quantity": 4}]}
+{"Header": 134, "Lines": [{"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 5}, {"Product": "E", "Quantity": 5}]}
+{"Header": 135, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 2}]}
+{"Header": 136, "Lines": [{"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 4}, {"Product": "E", "Quantity": 1}]}
+{"Header": 137, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 4}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 3}, {"Product": "E", "Quantity": 3}]}
+{"Header": 138, "Lines": [{"Product": "B", "Quantity": 1}, {"Product": "C", "Quantity": 3}]}
+{"Header": 139, "Lines": [{"Product": "E", "Quantity": 4}]}
+{"Header": 140, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 5}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 2}]}
+{"Header": 141, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "D", "Quantity": 2}, {"Product": "E", "Quantity": 1}]}
+{"Header": 142, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "B", "Quantity": 2}, {"Product": "D", "Quantity": 4}]}
+{"Header": 143, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "C", "Quantity": 2}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 1}]}
+{"Header": 144, "Lines": [{"Product": "A", "Quantity": 2}]}
+{"Header": 145, "Lines": [{"Product": "A", "Quantity": 5}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 2}]}
+{"Header": 146, "Lines": [{"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 1}, {"Product": "D", "Quantity": 5}]}
+{"Header": 147, "Lines": [{"Product": "A", "Quantity": 4}, {"Product": "B", "Quantity": 5}, {"Product": "C", "Quantity": 3}, {"Product": "D", "Quantity": 5}]}
+{"Header": 148, "Lines": [{"Product": "B", "Quantity": 3}, {"Product": "C", "Quantity": 3}]}
+{"Header": 149, "Lines": [{"Product": "A", "Quantity": 3}, {"Product": "B", "Quantity": 2}, {"Product": "C", "Quantity": 4}, {"Product": "D", "Quantity": 5}]}
+{"Header": 150, "Lines": [{"Product": "A", "Quantity": 2}, {"Product": "D", "Quantity": 1}, {"Product": "E", "Quantity": 3}]}
+
+Output:
+1: 3,0,4,0,0::3,0,4,0,0::0,0,0,0,0
+2: 2,2,4,1,1::2,2,4,1,1::0,0,0,0,0
+3: 0,0,4,0,0::0,0,4,0,0::0,0,0,0,0
+4: 0,3,0,0,1::0,3,0,0,1::0,0,0,0,0
+5: 4,5,3,0,0::4,5,3,0,0::0,0,0,0,0
+6: 0,0,3,0,0::0,0,3,0,0::0,0,0,0,0
+7: 4,4,5,3,4::4,4,5,3,4::0,0,0,0,0
+8: 0,3,4,2,0::0,3,4,2,0::0,0,0,0,0
+9: 3,1,4,4,3::3,1,4,4,3::0,0,0,0,0
+10: 0,4,3,0,3::0,4,3,0,3::0,0,0,0,0
+11: 4,5,5,0,3::4,5,5,0,3::0,0,0,0,0
+12: 3,2,3,5,5::3,2,3,5,5::0,0,0,0,0
+13: 0,0,0,3,2::0,0,0,3,2::0,0,0,0,0
+14: 1,0,0,0,0::1,0,0,0,0::0,0,0,0,0
+15: 5,4,1,2,5::5,4,1,2,5::0,0,0,0,0
+16: 0,5,0,0,0::0,5,0,0,0::0,0,0,0,0
+17: 0,0,0,3,0::0,0,0,3,0::0,0,0,0,0
+18: 0,5,0,2,0::0,5,0,2,0::0,0,0,0,0
+19: 2,2,1,5,1::2,2,1,5,1::0,0,0,0,0
+20: 3,0,0,5,2::3,0,0,5,2::0,0,0,0,0
+21: 4,4,5,5,4::4,4,5,5,4::0,0,0,0,0
+22: 3,2,1,3,5::3,2,1,3,5::0,0,0,0,0
+23: 0,4,1,0,4::0,4,1,0,4::0,0,0,0,0
+24: 3,0,3,2,0::3,0,3,2,0::0,0,0,0,0
+25: 0,0,0,0,5::0,0,0,0,5::0,0,0,0,0
+26: 1,0,4,0,0::1,0,4,0,0::0,0,0,0,0
+27: 1,0,5,4,2::1,0,5,4,2::0,0,0,0,0
+28: 2,4,4,5,4::2,4,4,5,4::0,0,0,0,0
+29: 4,4,0,2,0::4,4,0,2,0::0,0,0,0,0
+30: 4,0,0,0,0::4,0,0,0,0::0,0,0,0,0
+31: 1,3,0,5,0::1,3,0,5,0::0,0,0,0,0
+32: 5,3,1,0,0::5,3,1,0,0::0,0,0,0,0
+33: 3,4,2,1,5::3,4,2,1,5::0,0,0,0,0
+34: 1,2,1,3,2::1,2,1,3,2::0,0,0,0,0
+35: 3,4,3,4,4::3,4,3,4,4::0,0,0,0,0
+36: 5,4,3,0,3::5,4,3,0,3::0,0,0,0,0
+37: 4,1,3,0,3::4,1,3,0,3::0,0,0,0,0
+38: 2,2,3,4,1::2,2,3,4,1::0,0,0,0,0
+39: 0,2,4,4,2::0,2,4,4,2::0,0,0,0,0
+40: 2,0,0,0,2::2,0,0,0,2::0,0,0,0,0
+41: 0,0,0,1,2::0,0,0,1,2::0,0,0,0,0
+42: 1,0,1,0,0::1,0,1,0,0::0,0,0,0,0
+43: 0,5,0,5,0::0,5,0,5,0::0,0,0,0,0
+44: 3,2,0,1,1::3,2,0,1,1::0,0,0,0,0
+45: 2,0,5,0,2::2,0,5,0,2::0,0,0,0,0
+46: 0,4,0,0,0::0,4,0,0,0::0,0,0,0,0
+47: 0,1,0,0,1::0,1,0,0,1::0,0,0,0,0
+48: 0,5,0,0,0::0,5,0,0,0::0,0,0,0,0
+49: 3,5,5,0,3::3,5,5,0,3::0,0,0,0,0
+50: 0,3,2,0,0::0,3,2,0,0::0,0,0,0,0
+51: 2,3,2,5,5::2,3,0,5,5::0,0,2,0,0
+52: 0,1,4,5,0::0,1,0,5,0::0,0,4,0,0
+53: 0,0,0,0,2::0,0,0,0,2::0,0,0,0,0
+54: 3,4,4,1,4::3,4,0,1,4::0,0,4,0,0
+55: 0,5,0,5,5::0,5,0,5,5::0,0,0,0,0
+56: 0,0,5,2,2::0,0,0,0,2::0,0,5,2,0
+57: 2,0,0,0,0::2,0,0,0,0::0,0,0,0,0
+58: 4,0,0,3,1::4,0,0,0,1::0,0,0,3,0
+59: 0,3,0,2,1::0,3,0,0,1::0,0,0,2,0
+60: 0,2,3,4,0::0,2,0,0,0::0,0,3,4,0
+61: 1,0,5,5,0::1,0,0,0,0::0,0,5,5,0
+62: 3,3,1,2,3::3,3,0,0,3::0,0,1,2,0
+63: 2,3,0,3,4::2,3,0,0,4::0,0,0,3,0
+64: 5,3,0,0,0::5,3,0,0,0::0,0,0,0,0
+65: 3,3,1,0,0::3,3,0,0,0::0,0,1,0,0
+66: 5,1,3,2,4::5,1,0,0,4::0,0,3,2,0
+67: 0,3,0,0,0::0,3,0,0,0::0,0,0,0,0
+68: 0,2,0,3,0::0,2,0,0,0::0,0,0,3,0
+69: 0,4,2,2,4::0,0,0,0,4::0,3,2,2,0
+70: 5,1,5,2,5::5,1,0,0,5::0,0,5,2,0
+71: 4,5,0,4,3::4,0,0,0,3::0,5,0,4,0
+72: 4,1,5,4,0::4,0,0,0,0::0,1,5,4,0
+73: 3,4,0,0,4::3,0,0,0,4::0,4,0,0,0
+74: 5,5,3,3,5::5,0,0,0,5::0,5,3,3,0
+75: 3,3,1,1,4::3,0,0,0,4::0,3,1,1,0
+76: 0,0,0,5,0::0,0,0,0,0::0,0,0,5,0
+77: 5,2,4,3,0::5,0,0,0,0::0,2,4,3,0
+78: 1,4,4,2,5::0,0,0,0,5::1,4,4,2,0
+79: 0,5,2,1,1::0,0,0,0,1::0,5,2,1,0
+80: 3,0,4,2,3::0,0,0,0,3::3,0,4,2,0
+81: 0,0,0,1,2::0,0,0,0,2::0,0,0,1,0
+82: 1,5,5,4,5::0,0,0,0,5::1,5,5,4,0
+83: 1,0,2,0,5::0,0,0,0,5::1,0,2,0,0
+84: 2,5,0,0,3::0,0,0,0,3::2,5,0,0,0
+85: 0,0,3,0,0::0,0,0,0,0::0,0,3,0,0
+86: 4,0,4,0,3::0,0,0,0,3::4,0,4,0,0
+87: 5,3,3,2,3::0,0,0,0,3::5,3,3,2,0
+88: 0,0,0,4,0::0,0,0,0,0::0,0,0,4,0
+89: 2,0,0,5,0::0,0,0,0,0::2,0,0,5,0
+90: 1,0,2,5,4::0,0,0,0,4::1,0,2,5,0
+91: 3,0,0,0,2::0,0,0,0,2::3,0,0,0,0
+92: 1,1,4,1,5::0,0,0,0,5::1,1,4,1,0
+93: 1,1,5,3,3::0,0,0,0,3::1,1,5,3,0
+94: 3,3,2,3,3::0,0,0,0,3::3,3,2,3,0
+95: 5,0,3,3,0::0,0,0,0,0::5,0,3,3,0
+96: 2,3,5,0,4::0,0,0,0,4::2,3,5,0,0
+97: 0,2,5,0,0::0,0,0,0,0::0,2,5,0,0
+98: 1,0,0,0,0::0,0,0,0,0::1,0,0,0,0
+99: 0,3,1,0,1::0,0,0,0,1::0,3,1,0,0
+100: 0,2,5,0,1::0,0,0,0,1::0,2,5,0,0
+101: 0,0,1,0,5::0,0,0,0,5::0,0,1,0,0
+102: 5,4,1,5,5::0,0,0,0,0::5,4,1,5,4
+103: 0,4,0,0,0::0,0,0,0,0::0,4,0,0,0
+104: 0,1,0,0,2::0,0,0,0,0::0,1,0,0,1
+105: 0,3,0,4,0::0,0,0,0,0::0,3,0,4,0
+106: 5,0,0,0,0::0,0,0,0,0::5,0,0,0,0
+107: 0,0,0,0,3::0,0,0,0,0::0,0,0,0,2
+108: 3,0,1,0,0::0,0,0,0,0::3,0,1,0,0
+109: 4,1,2,3,1::0,0,0,0,1::4,1,2,3,0
+
